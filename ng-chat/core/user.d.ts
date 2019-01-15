@@ -4,6 +4,4 @@ export declare class User {
     displayName: string;
     status: UserStatus;
     avatar: string;
-    apiKey: string;
-    botId: string;
 }
