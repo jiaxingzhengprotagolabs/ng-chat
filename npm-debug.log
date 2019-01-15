@@ -1,0 +1,138 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'publish' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/home/victor/Documents/victor-npm',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /home/victor/.npm/ng-chat/1.2.0/package.tgz not in flight; packing
+9 info lifecycle ng-chat@1.2.0~prepublish: ng-chat@1.2.0
+10 silly lifecycle ng-chat@1.2.0~prepublish: no script for prepublish, continuing
+11 verbose tar pack [ '/home/victor/.npm/ng-chat/1.2.0/package.tgz',
+11 verbose tar pack   '/home/victor/Documents/victor-npm' ]
+12 verbose tarball /home/victor/.npm/ng-chat/1.2.0/package.tgz
+13 verbose folder /home/victor/Documents/victor-npm
+14 verbose addLocalTarball adding from inside cache /home/victor/.npm/ng-chat/1.2.0/package.tgz
+15 silly cache afterAdd ng-chat@1.2.0
+16 verbose afterAdd /home/victor/.npm/ng-chat/1.2.0/package/package.json not in flight; writing
+17 verbose afterAdd /home/victor/.npm/ng-chat/1.2.0/package/package.json written
+18 silly publish { _from: '.',
+18 silly publish   _id: 'ng-chat@1.2.0',
+18 silly publish   _inBundle: false,
+18 silly publish   _integrity: 'sha512-QC+jeUmSO3XEzKIyAXryO8097EcYtzeC3eEMq6O9WzxtxTVcT76b4/YT9n1Esiu1O0CV46SXWBfgKnqR7PdZ0A==',
+18 silly publish   _location: '/ng-chat',
+18 silly publish   _phantomChildren: {},
+18 silly publish   _requested:
+18 silly publish    { type: 'range',
+18 silly publish      registry: true,
+18 silly publish      raw: 'ng-chat@^1.2.0',
+18 silly publish      name: 'ng-chat-victor',
+18 silly publish      escapedName: 'ng-chat-victor',
+18 silly publish      rawSpec: '^1.2.0',
+18 silly publish      saveSpec: null,
+18 silly publish      fetchSpec: '^1.2.0' },
+18 silly publish   _requiredBy: [ '#USER', '/' ],
+18 silly publish   _resolved: 'https://registry.npmjs.org/ng-chat/-/ng-chat-1.2.0.tgz',
+18 silly publish   _shasum: '52615366e0d42733701e3af7508491c315437673',
+18 silly publish   _spec: 'ng-chat@^1.2.0',
+18 silly publish   _where: '/Users/jiaxingzheng/Documents/ChatbotFactoryWebsite/src/app/ng-chat',
+18 silly publish   author: { name: 'Victor' },
+18 silly publish   bugs: { url: 'https://github.com/rpaschoal/ng-chat/issues' },
+18 silly publish   bundleDependencies: false,
+18 silly publish   dependencies: { tslib: '^1.9.0' },
+18 silly publish   deprecated: false,
+18 silly publish   description: 'A simple facebook/linkedin lookalike chat module for Angular applications.',
+18 silly publish   devDependencies:
+18 silly publish    { '@angular/common': '^7.0.3',
+18 silly publish      '@angular/compiler': '^7.0.3',
+18 silly publish      '@angular/compiler-cli': '^7.0.3',
+18 silly publish      '@angular/core': '^7.0.3',
+18 silly publish      '@angular/forms': '^7.0.3',
+18 silly publish      '@angular/platform-browser': '^7.0.3',
+18 silly publish      gulp: '~4.0.0',
+18 silly publish      'gulp-inline-ng2-template': '^5.0.1',
+18 silly publish      'ng-packagr': '^4.4.0',
+18 silly publish      rollup: '^0.67.0',
+18 silly publish      rxjs: '^6.3.3',
+18 silly publish      tsickle: '^0.33.1',
+18 silly publish      typescript: '^3.1.6',
+18 silly publish      'uglify-js': '^3.4.9',
+18 silly publish      'zone.js': '^0.8.26' },
+18 silly publish   es2015: 'fesm2015/ng-chat.js',
+18 silly publish   esm2015: 'esm2015/ng-chat.js',
+18 silly publish   esm5: 'esm5/ng-chat.js',
+18 silly publish   fesm2015: 'fesm2015/ng-chat.js',
+18 silly publish   fesm5: 'fesm5/ng-chat.js',
+18 silly publish   homepage: 'https://github.com/rpaschoal/ng-chat',
+18 silly publish   license: 'MIT',
+18 silly publish   main: 'bundles/ng-chat.umd.js',
+18 silly publish   metadata: 'ng-chat.metadata.json',
+18 silly publish   module: 'fesm5/ng-chat.js',
+18 silly publish   name: 'ng-chat',
+18 silly publish   peerDependencies:
+18 silly publish    { '@angular/common': '*',
+18 silly publish      '@angular/core': '*',
+18 silly publish      '@angular/forms': '*',
+18 silly publish      rxjs: '*' },
+18 silly publish   sideEffects: false,
+18 silly publish   typings: 'ng-chat.d.ts',
+18 silly publish   version: '1.2.0',
+18 silly publish   readme: '# ng-chat\r\n\r\n[![npm](https://img.shields.io/npm/v/ng-chat.svg)](https://www.npmjs.com/package/ng-chat)\r\n[![npm downloads](https://img.shields.io/npm/dm/ng-chat.svg)](https://npmjs.org/ng-chat)\r\n[![Build Status](https://travis-ci.org/rpaschoal/ng-chat.svg?branch=development)](https://travis-ci.org/rpaschoal/ng-chat)\r\n[![codecov](https://codecov.io/gh/rpaschoal/ng-chat/branch/master/graph/badge.svg)](https://codecov.io/gh/rpaschoal/ng-chat)\r\n\r\nA simple facebook/linkedin lookalike chat module for Angular applications.\r\n\r\n* [Online demo](https://ng-chat.azurewebsites.net)\r\n* [Node.js sample application](https://github.com/rpaschoal/ng-chat-nodejs)\r\n\r\n<a href="https://www.buymeacoffee.com/ixJwWB5bD" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>\r\n\r\n## Getting started\r\n### Installation\r\n\r\n```\r\nnpm install ng-chat\r\n```\r\n\r\n### Setup\r\n#### Import the NgChatModule on your AppModule (EG: app.module.ts):\r\n\r\n```\r\n...\r\nimport { NgChatModule } from \'ng-chat\';\r\n\r\n@NgModule({\r\n  declarations: [\r\n    AppComponent\r\n  ],\r\n  imports: [\r\n    BrowserModule,\r\n    FormsModule,\r\n    HttpClientModule,\r\n    NgChatModule\r\n  ],\r\n  providers: [],\r\n  bootstrap: [AppComponent]\r\n})\r\nexport class AppModule { }\r\n```\r\n#### Add the component directive in your AppComponent template:\r\n\r\n```\r\n<ng-chat [adapter]="adapter" [userId]="userId"></ng-chat>\r\n```\r\n\r\n#### And in your app.component.ts:\r\n\r\n```\r\nimport { Component } from \'@angular/core\';\r\nimport { ChatAdapter } from \'ng-chat\';\r\nimport { MyAdapter } from \'my-adapter\';\r\n\r\n@Component({\r\n  selector: \'app-root\',\r\n  templateUrl: \'./app.component.html\',\r\n  styleUrls: [\'./app.component.css\']\r\n})\r\nexport class AppComponent {\r\n  title = \'app\';\r\n  userId = 999;\r\n\r\n  public adapter: ChatAdapter = new MyAdapter();\r\n}\r\n```\r\n\r\n__Required Settings__\r\n* [adapter]{string}: This will point to your adapter implementation (\'MyAdapter\' in the example above).\r\n* [userId]{any}: The unique id of the user that will be using the chat instance.\r\n\r\n__Additional Settings__\r\n* [title]{string}: The title to be displayed on the friends list. Default is "Friends".\r\n* [isCollapsed]{boolean}: If set to true the friends list will be rendered as collapsed by default. Default is false.\r\n* [pollFriendsList]{boolean}: If set to true the module will do a long poll on the "adapter.listFriends" method to keep the friends list updated. Default is false.\r\n* [pollingInterval]{number}: Configures the long poll interval in milliseconds. Default is 5000.\r\n* [searchEnabled]{boolean}: Enables the search bar on the friends list. Default is true.\r\n* [historyEnabled]{boolean}: Defines whether the component should call the "getMessageHistory" from the chat-adapter. Default is true.\r\n* [historyPageSize]{number}: Set the page size for each request if you are using the paged history chat adapter (Beta). Default is 10.\r\n* [emojisEnabled]{boolean}: Enables emoji parsing on the messages. Default is true.\r\n* [linkfyEnabled]{boolean}: Transforms links within the messages to valid HTML links. Default is true.\r\n* [audioEnabled]{boolean}: Enables audio notifications on received messages. Default is true.\r\n* [audioSource]{string}: WAV source of the audio notification. Default is a RAW github WAV content from ng-chat repository.\r\n* [persistWindowsState]{boolean}: Saves the state of current open windows on the local storage. Default is true.\r\n* [browserNotificationsEnabled]{boolean}: Enables browser notifications on received messages. Default is true.\r\n* [browserNotificationIconSource]{string}: Source URL of the icon displayed on the browser notification. Default is a RAW github PNG content from ng-chat repository.\r\n* [maximizeWindowOnNewMessage]{boolean}: If set to false new chat windows will render as collapsed when receiving new messages. Default is true.\r\n* [hideFriendsList]{boolean}: Hides the friends list. Chat windows can still be opened, closed and toggled by using `IChatController`. Default is false.\r\n* [hideFriendsListOnUnsupportedViewport]{boolean}: Hides the friends list if there isn\'t enough space for at least one chat window on the current viewport. Default is true.\r\n* [fileUploadUrl]{string}: Defines a valid CORS enabled URL that can process a request form file and return a `FileMessage` for the destinatary user.\r\n* [theme]{ng-chat/core/theme.enum:Theme}: Defines the styling theme. There is a light (default) and a dark theme available. You can also supply this as a string.\r\n* [customTheme]{string}: Source URL of the stylesheet asset to use for custom CSS styles. Works with assets relative to the project using ng-chat.\r\n\r\n__Localization__\r\n* [messagePlaceholder]{string}: The placeholder that is displayed in the text input on each chat window. Default is "Type a message".\r\n* [searchPlaceholder]{string}: The placeholder that is displayed in the search input on the friends list. Default is "Search".\r\n* [localization]{Localization}: Contract defining all text that is rendered by this component. Supply your own object for full text localization/customization. Supplying this setting will override all  other localization settings.\r\n\r\n__Events__\r\n* (onUserClicked){User}: Event emitted every time a user is clicked on the chat window and a new chat window is opened.\r\n* (onUserChatOpened){User}: Event emitted every time a chat window is opened, regardless if it was due to a user click on the friends list or via new message received.\r\n* (onUserChatClosed){User}: Event emitted every time a chat window is closed.\r\n* (onMessagesSeen){Message[]}: Event emitted every time a chunk of unread messages are seen by a user.\r\n\r\n#### Implement your ChatAdapter:\r\n\r\nIn order to instruct this module in how to send and receive messages within your software, you will have to implement your own ChatAdapter. The class that you will be implementing is the one that you must provide as an instance to the [adapter] setting of the module discussed above.\r\n\r\nThis package exposes a ChatAdapter abstract class which you can import on your new class file definition:\r\n\r\n```\r\nimport { ChatAdapter } from \'ng-chat\';\r\n```\r\n\r\nAfter importing it to your custom adapter implementation (EG: MyAdapter.ts), you must implement at least 3 methods which are abstract in the ChatAdapter base class which are:\r\n\r\n```\r\npublic abstract listFriends(): Observable<User[]>;\r\n    \r\npublic abstract getMessageHistory(userId: any): Observable<Message[]>;\r\n\r\npublic abstract sendMessage(message: Message): void;\r\n```\r\nThese methods will be performed via the client integration. Apart from the client integration and actions, you must also instruct the adapter in how to receive push notifications from the server using the following methods:\r\n\r\n```\r\npublic onMessageReceived(user: User, message: Message): void\r\npublic onFriendsListChanged(users: User[]): void\r\n```\r\n\r\n__Please note there is no need to override the 2 methods above. You must call them within your adapter implementation just to notify the module that a message was received or that the friends list was updated. The second one could be ignored if you decide to use the "pollFriendsList" feature.__\r\n\r\nIf in doubt, I\'ve provided 2 adapter implementations in this repo that can be found in the following links:\r\n\r\n* [Offline Bot Adapter](https://github.com/rpaschoal/ng-chat/blob/master/demo/offline_bot/src/app/demo-adapter.ts)\r\n* [SignalR Adapter](https://github.com/rpaschoal/ng-chat/blob/master/demo/aspnetcore_signalr/angularApp/core/app.ngchat.signalr.adapter.ts)\r\n\r\n#### File Upload:\r\n\r\nng-chat supports attachment of any type of files. To do so you need to implement an API endpoint on your application that can receive a POST with a form file.\r\n\r\nOn your ng-chat instance make sure you provide a valid URI for the `fileUploadUrl` parameter. This will enable the default file upload adapter and each chat window will render at the bottom right an attachment action which will trigger an input of type=file.\r\n\r\nAlong with a request form file ng-chat will also send a field named as `ng-chat-destinatary-userid` containing the id of the user in which the file will be sent to. Make sure you use this value to compose a response message as your API endpoint will have to return a `FileMessage`. This `FileMessage` instance will be sent to the destinatary user automatically by ng-chat as soon as the file upload ends successfully.\r\n\r\nYou can check a sample backend file upload implementation here: [ng-chat-nodejs](https://github.com/rpaschoal/ng-chat-nodejs/blob/master/server.js)\r\n\r\n#### Triggering ng-chat actions from elsewhere:\r\n\r\nCertain ng-chat actions can be triggered from your application by using the exported [IChatController](https://github.com/rpaschoal/ng-chat/blob/master/src/ng-chat/core/chat-controller.ts) interface.\r\n\r\nAssuming you have a ng-chat instance declared on your template file, add an Angular unique identifier to it:\r\n\r\n```\r\n<ng-chat #ngChatInstance ... />\r\n```\r\n\r\nThen on your component\'s code, declare a `ViewChild` property in order to bind your ng-chat instance:\r\n\r\n```\r\n@ViewChild(\'ngChatInstance\')\r\nprotected ngChatInstance: IChatController;\r\n```\r\n\r\nYou can now trigger some ng-chat actions such as opening a chat window from elsewhere using the following code:\r\n\r\n```\r\nthis.ngChatInstance.triggerOpenChatWindow(user);\r\n```\r\n\r\n#### Paged History Chat Adapter (BETA):\r\n\r\nThis adapter is similar to `ChatAdapter` but provides a pagination button to load older messages from your message history. You have to implement one additional method: `getMessageHistoryByPage`. You can check a sample implementation for this under the demo project with the `DemoAdapterPagedHistory` class.\r\n\r\nIf you like this feature and believe it should be the default behavior and implementation for ng-chat, please open an issue and vote for it here so we can potentially introduce it as the default chat adapter on subsequent versions of ng-chat.\r\n\r\n# Troubleshooting\r\n\r\nPlease follow this guideline when reporting bugs and feature requests:\r\n\r\n1. Use [GitHub Issues](https://github.com/rpaschoal/ng-chat/issues) board to report bugs and feature requests.\r\n2. Please **always** write the steps to reproduce the error. This will make it easier to reproduce, identify and fix bugs.\r\n\r\nThanks for understanding!\r\n\r\n### License\r\n\r\nThe MIT License (see the [LICENSE](https://github.com/rpaschoal/ng-chat/blob/master/LICENSE) file for the full text)\r\n',
+18 silly publish   readmeFilename: 'README.md',
+18 silly publish   scripts: {} }
+19 verbose getPublishConfig undefined
+20 silly mapToRegistry name ng-chat
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/ng-chat
+24 verbose publish registryBase https://registry.npmjs.org/
+25 silly publish uploading /home/victor/.npm/ng-chat/1.2.0/package.tgz
+26 verbose request uri https://registry.npmjs.org/ng-chat
+27 verbose request sending authorization for write operation
+28 info attempt registry request try #1 at 1:23:23 PM
+29 verbose request using bearer token for auth
+30 verbose request id 1c3ece71c4fc9244
+31 http request PUT https://registry.npmjs.org/ng-chat
+32 http 403 https://registry.npmjs.org/ng-chat
+33 verbose headers { date: 'Thu, 10 Jan 2019 18:23:24 GMT',
+33 verbose headers   'content-type': 'application/json',
+33 verbose headers   'transfer-encoding': 'chunked',
+33 verbose headers   connection: 'keep-alive',
+33 verbose headers   'set-cookie':
+33 verbose headers    [ '__cfduid=d42d5a304023484d1ed21c682b97628b11547144603; expires=Fri, 10-Jan-20 18:23:23 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+33 verbose headers   'cf-ray': '49712caab938c172-IAD',
+33 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+33 verbose headers   vary: 'Accept-Encoding',
+33 verbose headers   server: 'cloudflare',
+33 verbose headers   'content-encoding': 'gzip' }
+34 verbose request invalidating /home/victor/.npm/registry.npmjs.org/ng-chat on PUT
+35 error publish Failed PUT 403
+36 verbose stack Error: You do not have permission to publish "ng-chat". Are you logged in as the correct user? : ng-chat
+36 verbose stack     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+36 verbose stack     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+36 verbose stack     at /usr/share/npm/node_modules/npm-registry-client/lib/request.js:178:7
+36 verbose stack     at Gunzip.onEnd (zlib.js:131:5)
+36 verbose stack     at emitNone (events.js:111:20)
+36 verbose stack     at Gunzip.emit (events.js:208:7)
+36 verbose stack     at endReadableNT (_stream_readable.js:1064:12)
+36 verbose stack     at _combinedTickCallback (internal/process/next_tick.js:138:11)
+36 verbose stack     at process._tickCallback (internal/process/next_tick.js:180:9)
+37 verbose statusCode 403
+38 verbose pkgid ng-chat
+39 verbose cwd /home/victor/Documents/victor-npm
+40 error Linux 4.15.0-43-generic
+41 error argv "/usr/bin/node" "/usr/bin/npm" "publish"
+42 error node v8.10.0
+43 error npm  v3.5.2
+44 error code E403
+45 error You do not have permission to publish "ng-chat". Are you logged in as the correct user? : ng-chat
+46 error If you need help, you may report this error at:
+46 error     <https://github.com/npm/npm/issues>
+47 verbose exit [ 1, true ]
